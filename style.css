@@ -1,0 +1,191 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #eef2f7; /* Lighter, more modern background */
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #4a69bd, #3b5998); /* Gradient for a modern touch */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky; /* Make header sticky */
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation Styles */
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex; /* Use flexbox for navigation */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 18px; /* Slightly more space */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 30px; /* Increased padding */
+    margin: 25px auto; /* Centered sections with auto margin */
+    max-width: 960px; /* Max width for better readability */
+    background: #fff;
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    transition: transform 0.3s ease; /* Animation for sections */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Slight lift on section hover */
+}
+
+/* Image Styles within sections */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Center images and add bottom margin */
+    border-radius: 8px; /* Rounded image corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Shadow for images */
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.02); /* Slightly zoom in on image hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for tables */
+    border-radius: 8px;
+    overflow: hidden; /* Ensures rounded corners are applied */
+}
+
+table, th, td {
+    border: 1px solid #e0e0e0; /* Lighter border color */
+}
+
+th, td {
+    padding: 12px 15px; /* More padding for table cells */
+    text-align: left;
+}
+
+th {
+    background-color: #f0f4f8; /* Softer header background */
+    font-weight: 600;
+    color: #444;
+}
+
+tr:nth-child(even) {
+    background-color: #fdfdfd; /* Subtle zebra striping */
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Highlight row on hover */
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccd6e0; /* Lighter border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #4a69bd; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(74, 105, 189, 0.2); /* Glow effect on focus */
+    outline: none;
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 120px;
+}
+
+form button {
+    background-color: #4a69bd; /* Cohesive button color */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #3b5998; /* Darker on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form button:active {
+    transform: translateY(0); /* Press down effect */
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #333;
+    color: #e0e0e0; /* Lighter text for footer */
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #a0c4ff; /* Lighter link color */
+    text-decoration: none;
+    margin: 0 12px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff; /* White on hover */
+    text-decoration: underline;
+}
