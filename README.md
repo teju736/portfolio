@@ -2,7 +2,7 @@
 
 Welcome to my **Personal Portfolio Website**, a sleek and responsive site crafted with 💻 **HTML**, 🎨 **CSS**, and ⚙️ **JavaScript** to showcase my work, skills, and how to contact me. Built with a strong focus on clean design and subtle animations for a modern developer vibe.
 
-![Portfolio Screenshot](https://your-screenshot-link.com) <!-- Replace with your actual image URL -->
+
 
 ---
 
@@ -26,19 +26,4 @@ Welcome to my **Personal Portfolio Website**, a sleek and responsive site crafte
 
 ---
 
-## 📸 Demo
-
-🌐 [Live Website](https://your-live-link.com)  
-📂 [GitHub Repo](https://github.com/yourusername/your-repo-name)
-
----
-
-## ⚙️ Setup Instructions
-
-To run this project locally:
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-open index.html
 
